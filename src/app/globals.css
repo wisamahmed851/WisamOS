@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  overflow: hidden;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 33% 17%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 22% 65%;
+
+    --accent: 180 91% 60%;
+    --accent-foreground: 210 40% 98%;
+    
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 180 91% 60%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 33% 17%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 22% 65%;
+
+    --accent: 180 91% 60%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 180 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.aurora-background {
+  background: radial-gradient(
+    ellipse at 25% 25%,
+    hsla(180, 91%, 60%, 0.2),
+    transparent 50%
+  ),
+  radial-gradient(
+    ellipse at 75% 25%,
+    hsla(217, 91%, 60%, 0.2),
+    transparent 50%
+  ),
+  radial-gradient(
+    ellipse at 25% 75%,
+    hsla(280, 91%, 60%, 0.2),
+    transparent 50%
+  ),
+  radial-gradient(
+    ellipse at 75% 75%,
+    hsla(320, 91%, 60%, 0.2),
+    transparent 50%
+  );
+  background-color: hsl(var(--background));
+  background-size: 200% 200%;
+  animation: aurora-move 30s linear infinite;
+}
+
+@keyframes aurora-move {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.glass-card {
+  @apply bg-card/50 backdrop-blur-xl border border-white/10;
+}

@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "desktop-wallpaper",
+      "description": "A dark, abstract wallpaper for the desktop background.",
+      "imageUrl": "https://images.unsplash.com/photo-1711025372958-db48a4fe0ba1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXJrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzU4ODA1MTg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark abstract"
+    }
+  ]
+}

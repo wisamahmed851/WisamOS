@@ -1,0 +1,287 @@
+{
+  "user": {
+    "name": "Wisam Ahmed",
+    "tagline": "Backend Developer",
+    "avatar": "/me.jpg",
+    "phone": "+923272954532",
+    "email": "wisamahmed851@gmail.com",
+    "address": "Landhi no 2 khurramabad AR-33, Malir, Karachi"
+  },
+  "desktop": {
+    "wallpaperId": "desktop-wallpaper",
+    "funLines": [
+      "Bug-free code? Sure, in another dimension.",
+      "Debugging: Where dreams go to die.",
+      "Pi’s infinite. Just like my mistakes.",
+      "Time flies… unless you're debugging.",
+      "Code is the illusion of order.",
+      "Life’s algorithm is broken, repeatedly.",
+      "Compile errors? Just a suggestion.",
+      "Code is art, if it compiles.",
+      "Gravity: The universe’s invisible handshake.",
+      "Existence: An infinite loop of uncertainty."
+    ],
+    "icons": [
+      {
+        "id": "about",
+        "name": "About Me",
+        "type": "app"
+      },
+      {
+        "id": "projects",
+        "name": "Projects",
+        "type": "app"
+      },
+      {
+        "id": "skills",
+        "name": "Skills",
+        "type": "app"
+      },
+      {
+        "id": "experience",
+        "name": "Experience",
+        "type": "app"
+      },
+      {
+        "id": "education",
+        "name": "Education",
+        "type": "app"
+      },
+      {
+        "id": "terminal",
+        "name": "Terminal",
+        "type": "app"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "type": "link",
+        "url": "https://github.com/wisamahmed851"
+      },
+      {
+        "id": "linkedin",
+        "name": "LinkedIn",
+        "type": "link",
+        "url": "https://www.linkedin.com/in/wisam-ahmed-875248309/"
+      },
+      {
+        "id": "resume",
+        "name": "Resume",
+        "type": "app"
+      },
+      {
+        "id": "contact",
+        "name": "Contact",
+        "type": "app"
+      }
+    ]
+  },
+  "apps": {
+    "about": {
+      "title": "About Me",
+      "content": "As a results-driven Backend Developer, I specialize in architecting and delivering high-performance, scalable web applications. With deep expertise in Laravel and other modern frameworks, I have a proven track record of engineering solutions from enterprise-grade ERPs to AI-powered platforms. I am passionate about rapid development and creative problem-solving, and while my focus is the backend, I am also proficient with frontend and mobile technologies, allowing me to contribute effectively across the full stack."
+    },
+    "projects": [
+      {
+        "id": "proj_devpay",
+        "name": "DevPay - Payment Gateway",
+        "description": "Engineered a comprehensive payment gateway prototype using Next.js and Supabase to simulate a complete financial ecosystem. This project features detailed API documentation and includes dedicated dashboards for Admins, Merchants, and Government Agents, showcasing my ability to design and build complex, multi-tenant systems with a focus on security and usability.",
+        "tech": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Supabase",
+          "API Design"
+        ],
+        "link": "https://devpay-six.vercel.app/",
+        "video": "/DevpayTutorial.mp4",
+        "image": "/DepayHome.png"
+      },
+      {
+        "id": "proj_palmisland",
+        "name": "Palmisland - Dubai Property Agency",
+        "description": "Developed an agency website for showcasing luxury properties in Dubai. The platform is built with a Laravel backend and React.js frontend, designed to provide an elegant and responsive user experience for property listings and client interactions.",
+        "tech": [
+          "Laravel",
+          "React.js"
+        ],
+        "link": "https://palmisland.datainovate.com/",
+        "video": "/PalmislandTutorial.mp4",
+        "image": "/PalmislandHome.png"
+      },
+      {
+        "id": "proj_ma3rood",
+        "name": "Ma3rood - E-commerce, Property & Motors Platform",
+        "description": "Built a comprehensive multi-category marketplace inspired by TradeMe (New Zealand) and tailored for the Dubai market. Ma3rood offers a full-fledged e-commerce system, property listings, and motors marketplace, providing users with a seamless platform to buy, sell, and explore diverse categories in one unified ecosystem.",
+        "tech": [
+          "Laravel",
+          "React.js",
+          "E-commerce",
+          "Marketplace Design"
+        ],
+        "link": "https://ma3rood.com/",
+        "video": "/Ma3roodTutorial.mp4",
+        "image": "/Ma3roodHome.png"
+      },
+      {
+        "id": "proj_ridenshare",
+        "name": "Ride_n_Share - Real-Time Ride Booking App",
+        "description": "Contributed to the development of a ride-booking mobile application with a Nest.js backend and React Native frontend. Specifically implemented WebSocket-based live communication to enable real-time ride requests, driver updates, and user notifications. This project demonstrates my ability to design and integrate scalable, low-latency communication systems within mobile applications, ensuring a smooth and interactive user experience.",
+        "tech": [
+          "Nest.js",
+          "React Native",
+          "WebSocket",
+          "Real-Time Communication",
+          "Firebase"
+        ],
+        "appLinks": [
+          {
+            "label": "Driver App",
+            "url": "/RideNShareDriver.apk"
+          },
+          {
+            "label": "User App",
+            "url": "/RideNShareUser.apk"
+          }
+        ],
+        "link": "",
+        "video": "/RideNShareDemo.mp4",
+        "image": "/RideNShareHome.png"
+      },
+      {
+        "id": "proj_getxservices",
+        "name": "GetX Services - On-Demand Services App",
+        "description": "Developed a full-featured mobile marketplace for on-demand home services using Flutter and a NestJS backend. This comprehensive solution supports dual roles for users and service providers, and integrates Firebase for real-time notifications, showcasing my ability to build robust, cross-platform mobile applications from the ground up.",
+        "tech": [
+          "Flutter",
+          "NestJS",
+          "Firebase",
+          "MySQL",
+          "Mobile Development"
+        ],
+        "link": "/GetXServices.apk",
+        "video": "/GetXServicesVideo.mp4",
+        "image": "/GetXServices1.png"
+      },
+      {
+        "id": "proj_portfolio",
+        "name": "Portfolio OS",
+        "description": "The very operating system you are using now. A creative and interactive portfolio built to simulate a Kali Linux desktop environment. This project demonstrates my frontend skills and attention to detail, using Next.js, TypeScript, and Framer Motion to create a unique user experience.",
+        "tech": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
+        "link": "https://github.com/wisamahmed851"
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "C#",
+          "Dart",
+          "SQL"
+        ]
+      },
+      {
+        "category": "Frontend",
+        "items": [
+          "React",
+          "jQuery",
+          "Bootstrap",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "category": "Backend",
+        "items": [
+          "Laravel",
+          "Nest JS",
+          "ASP.NET MVC Core"
+        ]
+      },
+      {
+        "category": "Mobile Development",
+        "items": [
+          "Flutter (Learning)"
+        ]
+      },
+      {
+        "category": "Databases & BaaS",
+        "items": [
+          "MySQL",
+          "Supabase",
+          "Firebase",
+          "POSTGRES SQL"
+        ]
+      },
+      {
+        "category": "Tools & Platforms",
+        "items": [
+          "Git & GitHub",
+          "AI Integrations",
+          "Firebase Messaging"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Sheikhani Group Inc.",
+        "role": "Backend Developer",
+        "duration": "March 2025 - Present",
+        "description": "Architect and develop scalable backend systems using Laravel and Nest.js, with expertise in designing and maintaining APIs. Focused on building secure, efficient, and high-performance applications through strong database management, real-time communication, and optimized system architecture."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Aptech Metro Star Gate",
+        "degree": "Advanced Diploma in Software Engineering (ADSE)",
+        "duration": "2023 - 2026 (Currently Enrolled)",
+        "description": "Enrolled in an intensive program covering a wide range of software development principles, tools, and technologies."
+      },
+      {
+        "institution": "Govet Degree Boys Colledge Gulistan-e-johar block 7",
+        "degree": "Intermediate (Pre-Engineering)",
+        "duration": "2021 - 2022",
+        "description": "Completed intermediate studies with a focus in Pre-Engineering."
+      },
+      {
+        "institution": "Garrision Grammer School",
+        "degree": "Matriculation (Biology)",
+        "duration": "2019 - 2021",
+        "description": "Completed matriculation with a focus in Biology."
+      }
+    ],
+    "resumeUrl": "/Resume.pdf",
+    "contact": {
+      "email": "wisamahmed851@gmail.com",
+      "social": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/wisamahmed851",
+          "icon": "Github"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/wisam-ahmed-875248309/",
+          "icon": "Linkedin"
+        }
+      ]
+    }
+  },
+  "music": {
+    "enabled": true,
+    "playlist": [
+      {
+        "title": "Custom Track",
+        "url": "/song.mp3"
+      }
+    ]
+  }
+}
