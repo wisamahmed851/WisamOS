@@ -83,6 +83,38 @@
     },
     "projects": [
       {
+        "id": "proj_advertina",
+        "name": "Advertina Global - Digital Advertising Booking Platform",
+        "description": "Digital-advertising booking product delivered as three web projects: a NestJS and PostgreSQL API (booking, authentication, payments, media handling and background jobs), a Next.js customer site with a guest booking wizard and advertiser portal, and a Next.js staff panel with an operations console and reviewer desk. Requests pass through JWT auth, permission and resource-scope guards, and the API connects to GiguPlay as a partner to play booked campaigns on screens.",
+        "tech": [
+          "NestJS",
+          "PostgreSQL",
+          "Next.js",
+          "TypeScript",
+          "JWT & RBAC",
+          "Payments",
+          "Background Jobs"
+        ],
+        "link": "https://advertinaglobal.com/",
+        "image": "/AdvertinaHome.png"
+      },
+      {
+        "id": "proj_giguplay",
+        "name": "GiguPlay - Multi-Tenant Screen Network Platform",
+        "description": "Multi-tenant platform for running video content on TV-box screens, built as three web projects plus a player app: a NestJS, TypeORM and PostgreSQL API with socket.io, a Next.js management panel for staff, a Next.js client panel for partners and customers, a public marketing site with plans and a buy flow, and an offline-first Flutter player backed by local SQLite. Includes screen time-sharing between partners, device pairing by QR code, two-factor authentication and role-based permissions.",
+        "tech": [
+          "NestJS",
+          "TypeORM",
+          "PostgreSQL",
+          "socket.io",
+          "Next.js",
+          "Flutter",
+          "Multi-Tenant"
+        ],
+        "link": "https://giguplay.com/",
+        "image": "/GiguPlayHome.png"
+      },
+      {
         "id": "proj_devpay",
         "name": "DevPay - Payment Gateway",
         "description": "Engineered a comprehensive payment gateway prototype using Next.js and Supabase to simulate a complete financial ecosystem. This project features detailed API documentation and includes dedicated dashboards for Admins, Merchants, and Government Agents, showcasing my ability to design and build complex, multi-tenant systems with a focus on security and usability.",
@@ -165,7 +197,7 @@
       },
       {
         "id": "proj_hotel",
-        "name": "Hotel Management System",
+        "name": "LuxuryStay - Hotel Management System",
         "description": "Solo-built MERN application covering room booking, housekeeping and cleaning workflows, automated room-status updates and the checkout flow, with a MongoDB data model and indexing on booking and room-status endpoints.",
         "tech": [
           "Express.js",
@@ -173,7 +205,8 @@
           "MongoDB",
           "Node.js"
         ],
-        "link": "https://github.com/wisamahmed851"
+        "link": "https://github.com/wisamahmed851/LuxuryStay_Hospitality_frontend",
+        "image": "/HotelHome.png"
       },
       {
         "id": "proj_nehlum",
@@ -198,36 +231,6 @@
           "CMS"
         ],
         "link": "https://bidecsol.com/"
-      },
-      {
-        "id": "proj_giguplay",
-        "name": "GiguPlay - Multi-Tenant Screen Network Platform",
-        "description": "Multi-tenant platform for running video content on TV-box screens, built as three web projects plus a player app: a NestJS, TypeORM and PostgreSQL API with socket.io, a Next.js management panel for staff, a Next.js client panel for partners and customers, a public marketing site with plans and a buy flow, and an offline-first Flutter player backed by local SQLite. Includes screen time-sharing between partners, device pairing by QR code, two-factor authentication and role-based permissions.",
-        "tech": [
-          "NestJS",
-          "TypeORM",
-          "PostgreSQL",
-          "socket.io",
-          "Next.js",
-          "Flutter",
-          "Multi-Tenant"
-        ],
-        "link": ""
-      },
-      {
-        "id": "proj_advertina",
-        "name": "Advertina Global - Digital Advertising Booking Platform",
-        "description": "Digital-advertising booking product delivered as three web projects: a NestJS and PostgreSQL API (booking, authentication, payments, media handling and background jobs), a Next.js customer site with a guest booking wizard and advertiser portal, and a Next.js staff panel with an operations console and reviewer desk. Requests pass through JWT auth, permission and resource-scope guards, and the API connects to GiguPlay as a partner to play booked campaigns on screens.",
-        "tech": [
-          "NestJS",
-          "PostgreSQL",
-          "Next.js",
-          "TypeScript",
-          "JWT & RBAC",
-          "Payments",
-          "Background Jobs"
-        ],
-        "link": ""
       },
       {
         "id": "proj_portfolio",
