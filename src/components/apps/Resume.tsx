@@ -6,16 +6,18 @@ import { Button } from '@/components/ui/button';
 import { Download, Mail, Phone, MapPin, Linkedin, Github } from 'lucide-react';
 import Link from 'next/link';
 
+const FEATURED = ['proj_advertina', 'proj_giguplay'];
+
 const Resume = () => {
   const { user, apps } = config;
 
   const prioritizedProjects = [...apps.projects].sort((a, b) => {
-    const aHasPriority = a.tech.some(t => t.toLowerCase().includes('laravel') || t.toLowerCase().includes('asp.net'));
-    const bHasPriority = b.tech.some(t => t.toLowerCase().includes('laravel') || t.toLowerCase().includes('asp.net'));
+    const aHasPriority = FEATURED.includes(a.id) || a.tech.some(t => t.toLowerCase().includes('laravel') || t.toLowerCase().includes('asp.net'));
+    const bHasPriority = FEATURED.includes(b.id) || b.tech.some(t => t.toLowerCase().includes('laravel') || t.toLowerCase().includes('asp.net'));
     if (aHasPriority && !bHasPriority) return -1;
     if (!aHasPriority && bHasPriority) return 1;
     return 0;
-  }).slice(0,3);
+  }).slice(0,5);
 
   return (
     <div className="h-full bg-background flex flex-col">

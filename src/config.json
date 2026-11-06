@@ -2,7 +2,7 @@
   "user": {
     "name": "Wisam Ahmed",
     "tagline": "Backend Developer",
-    "avatar": "/me.jpg",
+    "avatar": "/me.png",
     "phone": "+923272954532",
     "email": "wisamahmed851@gmail.com",
     "address": "Landhi no 2 khurramabad AR-33, Malir, Karachi"
@@ -79,7 +79,7 @@
   "apps": {
     "about": {
       "title": "About Me",
-      "content": "As a results-driven Backend Developer, I specialize in architecting and delivering high-performance, scalable web applications. With deep expertise in Laravel and other modern frameworks, I have a proven track record of engineering solutions from enterprise-grade ERPs to AI-powered platforms. I am passionate about rapid development and creative problem-solving, and while my focus is the backend, I am also proficient with frontend and mobile technologies, allowing me to contribute effectively across the full stack."
+      "content": "Backend-focused full-stack developer with 3+ years of experience at Bidec Solutions in Karachi, now working at mid-level. I build production REST APIs, real-time systems (WebSockets, Pusher, FCM), CMS and marketplace platforms with Laravel and NestJS, backed by MySQL and PostgreSQL. My work covers JWT/Sanctum authentication with role-based access control, service/repository architecture, query optimisation and indexing, queues and caching. I also work across the frontend with React and have built mobile-backed products, so I can contribute across the stack while keeping the backend as my core strength."
     },
     "projects": [
       {
@@ -164,6 +164,72 @@
         "image": "/GetXServices1.png"
       },
       {
+        "id": "proj_hotel",
+        "name": "Hotel Management System",
+        "description": "Solo-built MERN application covering room booking, housekeeping and cleaning workflows, automated room-status updates and the checkout flow, with a MongoDB data model and indexing on booking and room-status endpoints.",
+        "tech": [
+          "Express.js",
+          "React",
+          "MongoDB",
+          "Node.js"
+        ],
+        "link": "https://github.com/wisamahmed851"
+      },
+      {
+        "id": "proj_nehlum",
+        "name": "Nehlum - NestJS CMS",
+        "description": "CMS with dynamic page creation and structured content, built on a modular NestJS architecture with PostgreSQL and REST APIs for frontend integration. Deployed and maintained live.",
+        "tech": [
+          "NestJS",
+          "PostgreSQL",
+          "REST APIs",
+          "CMS"
+        ],
+        "link": "https://nehlum.com/"
+      },
+      {
+        "id": "proj_bidec",
+        "name": "Bidec Solutions - Corporate Website & CMS",
+        "description": "SEO-focused corporate website and CMS built with Laravel and MySQL. Includes clean URLs, metadata management, redirects and flexible content modules so non-technical users can publish and manage pages themselves.",
+        "tech": [
+          "Laravel",
+          "MySQL",
+          "SEO",
+          "CMS"
+        ],
+        "link": "https://bidecsol.com/"
+      },
+      {
+        "id": "proj_giguplay",
+        "name": "GiguPlay - Multi-Tenant Screen Network Platform",
+        "description": "Multi-tenant platform for running video content on TV-box screens, built as three web projects plus a player app: a NestJS, TypeORM and PostgreSQL API with socket.io, a Next.js management panel for staff, a Next.js client panel for partners and customers, a public marketing site with plans and a buy flow, and an offline-first Flutter player backed by local SQLite. Includes screen time-sharing between partners, device pairing by QR code, two-factor authentication and role-based permissions.",
+        "tech": [
+          "NestJS",
+          "TypeORM",
+          "PostgreSQL",
+          "socket.io",
+          "Next.js",
+          "Flutter",
+          "Multi-Tenant"
+        ],
+        "link": ""
+      },
+      {
+        "id": "proj_advertina",
+        "name": "Advertina Global - Digital Advertising Booking Platform",
+        "description": "Digital-advertising booking product delivered as three web projects: a NestJS and PostgreSQL API (booking, authentication, payments, media handling and background jobs), a Next.js customer site with a guest booking wizard and advertiser portal, and a Next.js staff panel with an operations console and reviewer desk. Requests pass through JWT auth, permission and resource-scope guards, and the API connects to GiguPlay as a partner to play booked campaigns on screens.",
+        "tech": [
+          "NestJS",
+          "PostgreSQL",
+          "Next.js",
+          "TypeScript",
+          "JWT & RBAC",
+          "Payments",
+          "Background Jobs"
+        ],
+        "link": ""
+      },
+      {
         "id": "proj_portfolio",
         "name": "Portfolio OS",
         "description": "The very operating system you are using now. A creative and interactive portfolio built to simulate a Kali Linux desktop environment. This project demonstrates my frontend skills and attention to detail, using Next.js, TypeScript, and Framer Motion to create a unique user experience.",
@@ -180,30 +246,37 @@
       {
         "category": "Languages",
         "items": [
-          "HTML",
-          "CSS",
-          "JavaScript",
           "PHP",
+          "JavaScript",
+          "TypeScript",
           "C#",
-          "Dart",
-          "SQL"
-        ]
-      },
-      {
-        "category": "Frontend",
-        "items": [
-          "React",
-          "jQuery",
-          "Bootstrap",
-          "Tailwind CSS"
+          "SQL",
+          "Python (Beginner)",
+          "HTML",
+          "CSS"
         ]
       },
       {
         "category": "Backend",
         "items": [
           "Laravel",
-          "Nest JS",
-          "ASP.NET MVC Core"
+          "NestJS",
+          "Node.js",
+          "Express.js",
+          "ASP.NET Core",
+          "REST API Design",
+          "WebSockets",
+          "Pusher",
+          "FastAPI (Beginner)"
+        ]
+      },
+      {
+        "category": "Frontend",
+        "items": [
+          "React",
+          "Tailwind CSS",
+          "Bootstrap",
+          "jQuery"
         ]
       },
       {
@@ -216,29 +289,54 @@
         "category": "Databases & BaaS",
         "items": [
           "MySQL",
-          "Supabase",
+          "PostgreSQL",
+          "SQL Server",
+          "MongoDB",
+          "Redis",
           "Firebase",
-          "POSTGRES SQL"
+          "Supabase"
+        ]
+      },
+      {
+        "category": "Architecture & Practices",
+        "items": [
+          "MVC",
+          "Service/Repository Pattern",
+          "JWT & Laravel Sanctum",
+          "Role-Based Access Control",
+          "Queues & Background Jobs",
+          "Query Optimization & Indexing",
+          "Caching",
+          "SEO-Oriented CMS",
+          "Multi-Language Content"
         ]
       },
       {
         "category": "Tools & Platforms",
         "items": [
           "Git & GitHub",
-          "AI Integrations",
-          "Firebase Messaging"
+          "Postman",
+          "Firebase Cloud Messaging",
+          "Amazon S3",
+          "AI Integrations"
         ]
       }
     ],
     "experience": [
       {
         "company": "Bidec Solutions Pvt Ltd",
-        "role": "Backend Developer",
-        "duration": "August 13 - Present",
-        "description": "Architect and develop scalable backend systems using Laravel and Nest.js, with expertise in designing and maintaining APIs. Focused on building secure, efficient, and high-performance applications through strong database management, real-time communication, and optimized system architecture."
+        "role": "Backend Developer (Mid-Level)",
+        "duration": "March 2023 - Present",
+        "description": "Lead Laravel and NestJS backend modules and design and document REST APIs using service/repository architecture. Implement JWT/Sanctum authentication with role-based access control, query tuning and indexing, caching and real-time features, and mentor junior developers and review code. Delivered Ma3rood, Ride n Share, the Bidec Solutions website, Nehlum CMS, and the Advertina Global and GiguPlay platforms."
       }
     ],
     "education": [
+      {
+        "institution": "Virtual University of Pakistan",
+        "degree": "Bachelor of Data Science",
+        "duration": "2026 - 2030 (In Progress)",
+        "description": "Currently enrolled in a four-year Bachelor of Data Science program."
+      },
       {
         "institution": "Aptech Metro Star Gate",
         "degree": "Advanced Diploma in Software Engineering (ADSE)",
@@ -246,13 +344,13 @@
         "description": "Enrolled in an intensive program covering a wide range of software development principles, tools, and technologies."
       },
       {
-        "institution": "Govet Degree Boys Colledge Gulistan-e-johar block 7",
+        "institution": "Government Degree Boys College Gulistan-e-Johar Block 7",
         "degree": "Intermediate (Pre-Engineering)",
         "duration": "2021 - 2022",
         "description": "Completed intermediate studies with a focus in Pre-Engineering."
       },
       {
-        "institution": "Garrision Grammer School",
+        "institution": "Garrison Grammar School",
         "degree": "Matriculation (Biology)",
         "duration": "2019 - 2021",
         "description": "Completed matriculation with a focus in Biology."
